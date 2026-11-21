@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/dist/
+.vinext/
+.cloudflare/
+
+# local agent skills, audits, design process & tests
+.agents/
+anti-slop/
+skills-lock.json
+DESIGN.md
+AGENTS.md
+vitest.config.ts
+src/lib/__tests__/
